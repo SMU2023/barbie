@@ -1,0 +1,134 @@
+header{
+    background-color: #e3b1c8;
+    padding: 5vh;
+  }
+  
+  header {
+    background-color: #e3b1c8;
+    color: #fff;
+    padding: 10px;
+  
+  }
+  
+  img {
+    width: 120px;
+    height: 200;
+    vertical-align: middle;
+    margin-left: 120px;
+    margin-top: 15px;
+  }
+  
+  header h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+  
+  header p {
+    font-size: 20px;
+    margin: 5px 0;
+    margin-left: 130px;
+    margin-top: 20px;
+    cursor: default;
+  }
+  
+  .navbar {
+    padding: 5px;
+    text-align: right;
+  
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 180px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 30px;
+  
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+   
+  }
+  .navbar a:hover {
+    background-color: #e10e7f;
+    border-radius: 5px;
+    transition: 1s;
+  }
+  /* Footer */
+  footer {
+ background-color: #d4789d;
+ color: #fff;
+text-align: center;
+ padding: 30px 0;
+ box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+
+/* Adicione estas propriedades para fixar o rodapé no final da página */
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+}
+.footer-logo {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+  }
+  .footer p {
+    font-size: 16px;
+    margin: 0;
+    cursor: default;
+    color: white;
+  }
+  
+  .footer .navbar {
+    margin-top: 80px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .footer .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .footer .navbar li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .footer .navbar a:hover {
+    background-color: #e3b1c8;
+    border-radius: 5px;
+    transition: 1s;
+  }
+  
+  .footer-links {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
