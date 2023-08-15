@@ -33,7 +33,7 @@ export default function Header(){
       <div className="navbar">
         <ul>
           <li>
-            <a href="#">Termos de Uso</a>
+            <a href="#">Página Inicial</a>
           </li>
           <li>
             <a href="#">Política de Privacidade</a>
