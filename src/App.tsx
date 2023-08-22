@@ -1,9 +1,12 @@
-import Header from './componentes/header/Header'
 import './App.css'
-export default function App() {
+import Header from './componentes/header/Header'
+import Footer from './componentes/footer/Footer'
+function App() {
   return (
-    <Header/>
+    <>
+      <Header/>
+      <Footer/>
+    </>
   )
 }
-
-
+export default App
