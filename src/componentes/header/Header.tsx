@@ -1,6 +1,9 @@
 import './Header.css'
 function Header(){
+    const texto = "samuel"
+   
     return(
+        <>
         <header>
             <div className = "logo">
             <img src = "./public/logo.com.png" alt ="logo"></img>
@@ -8,6 +11,9 @@ function Header(){
             </div>
             <nav>
                 <ul>
+                    <li>
+                        <input className= "barrapesquisa" type= "text"></input>
+                    </li>
                     <li>
                         <a href="#">Página inicial</a>
                     </li>
@@ -23,6 +29,12 @@ function Header(){
                 </ul>
             </nav>
         </header>
+        <div>
+           
+            <p className = "texto_digitado"> pesquisa: {texto}</p>
+        </div>
+
+        </>
     )
 }
 export default Header
