@@ -1,13 +1,10 @@
 footer{
-    width: 100vw;
-    height: 20vh;
     background-color: #f0bdcd;
+    display: flex;
+    padding: 50px;
 }
-img {
-    width: 120px;
-    height: 200;
-    vertical-align: middle;
-    margin-left: 120px;
-    margin-top: 15px;
-  }
-  
+
+img{
+    width: 300px;
+    height: auto;
+}

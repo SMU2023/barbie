@@ -2,7 +2,7 @@ import './Header.css'
 function Header(){
     return(
         <header>
-            <div>
+            <div className = "logo">
             <img src = "./public/logo.com.png" alt ="logo"></img>
       <p>Estreia mundial</p>
             </div>
