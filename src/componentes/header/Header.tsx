@@ -1,6 +1,6 @@
 import './Header.css'
 function Header(){
-    const texto = "samuel"
+    const texto = "samuel ortega"
    
     return(
         <>
