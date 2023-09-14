@@ -35,7 +35,7 @@ export default function Main(){
         {
             id:4,
             titulo:"Gato de Botas",
-            sinopse:"Gato de Botas após descobrir que já gastou oito de suas nove vidas. Este fato faz com que ele inicie uma série de questionamentos sobre a mortalidade e também sua maneira de viver.",
+            sinopse:"Gato de Botas o bichano após descobrir que já gastou oito de suas nove vidas. Este fato faz com que ele inicie uma série de questionamentos sobre a mortalidade e também sua maneira de viver.",
             imagem:"/filme4.jpg"
         }
 
