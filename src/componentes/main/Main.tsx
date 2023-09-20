@@ -9,6 +9,7 @@ type FilmesType = {
 }
 export default function Main(){
     //Hook
+    //teste
     const [texto,setTexto] = useState("")
 
     const filmes:FilmesType[] = [
