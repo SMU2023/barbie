@@ -43,7 +43,6 @@ export default function Main(){
 
     ]
 
-
     //A função recebe um atributo chamado e de "event"
     function mudaTexto(e:React.ChangeEvent<HTMLInputElement>){
         console.log(e.target.value)
