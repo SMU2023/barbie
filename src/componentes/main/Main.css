@@ -5,6 +5,7 @@
     column-gap: 30px;
     justify-content: center;
     row-gap: 20px;
+    min-height: 50vh;
 }
 /*  gap: 30px;
     flex-wrap: wrap;
@@ -12,7 +13,7 @@
 .barrapesquisa{
         height: 30px;
         border: 1px solid #bebebe;
-        width: 200px;
+        width: 100px;
         border-radius: 5px;
         font-size: 1.4rem;
     }
