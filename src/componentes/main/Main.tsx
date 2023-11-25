@@ -9,6 +9,7 @@ type FilmesType = {
 }
 export default function Main(){
     //Hook
+    //teste
     const [texto,setTexto] = useState("")
 
     const filmes:FilmesType[] = [
@@ -42,7 +43,6 @@ export default function Main(){
 
     ]
 
-
     //A função recebe um atributo chamado e de "event"
     function mudaTexto(e:React.ChangeEvent<HTMLInputElement>){
         console.log(e.target.value)
@@ -51,6 +51,7 @@ export default function Main(){
     return(
         <>
             <div className="pesquisa">
+            
                 
                 <p>Buscar Filme</p>
                 <input className='barrapesquisa' type="text" onChange={mudaTexto} />
